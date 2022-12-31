@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src='./assets/js/app.js' defer></script>
+    <title>Interactive rating component</title>
+</head>
+<body>
+    <main>
+        <div class="card" id="rates">
+            <div class="rate-container">
+                <div class="star-img">
+                    <img src="./assets/images/icon-star.svg" alt="star" />
+                </div>
+                <h1>How did we do?</h1>
+                <p>
+                    Please let us know how we did with your support request. All feedback is
+                    appreciated to help us improve our offering!
+                </p>
+                <ul>
+                    <li><button id="rate-btn">1</button></li>
+                    <li><button id="rate-btn">2</button></li>
+                    <li><button id="rate-btn">3</button></li>
+                    <li><button id="rate-btn">4</button></li>
+                    <li><button id="rate-btn">5</button></li>
+                </ul>
+                <button id="submit-rating">Submit</button>
+            </div>
+        </div>
+        <div class="thanks-container">
+            <img src="./assets/images/illustration-thank-you.svg" alt="" />
+            <p>
+                You selected
+                <span id="rating" style="display: inline-block; margin: 0 0.3rem">1</span>
+                out of 5
+            </p>
+            <h2>Thank you!</h2>
+            <p>
+                We appreciate you taking the time to give a rating. If you ever need
+                more support, don’t hesitate to get in touch!
+            </p>
+        </div>
+    </main>
+</body>
+</html>
